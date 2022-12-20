@@ -1,0 +1,147 @@
+.d_f {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+.btn_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.btn_list1 {
+  display: flex;
+  flex-basis: 39%;
+  gap: 20px;
+}
+
+.btn_list2 {
+  display: flex;
+  flex-basis: 5%;
+  align-items: center;
+}
+
+.f_btn1 {
+  background-color: rgba(147, 245, 106, 0.616);
+  color: rgb(66, 212, 9);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn2 {
+  background-color: rgba(250, 161, 211, 0.822);
+  color: rgb(231, 16, 167);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn3 {
+  background-color: rgba(223, 214, 148, 0.952);
+  color: rgb(202, 176, 26);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn4 {
+  background-color: rgba(227, 208, 245, 0.918);
+  color: rgb(143, 20, 224);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn5 {
+  background-color: rgba(214, 241, 232, 0.938);
+  color: rgba(26, 197, 140, 0.952);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn6 {
+  background-color: rgba(205, 224, 241, 0.877);
+  color: rgb(33, 152, 199);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn7 {
+  background-color: rgba(238, 228, 211, 0.952);
+  color: rgb(224, 138, 40);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.f_btn8 {
+  background-color: rgb(181, 211, 235);
+  color: rgb(9, 92, 148);
+  font-weight: bold;
+  border-radius: 40%;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

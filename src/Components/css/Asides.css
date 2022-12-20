@@ -1,0 +1,121 @@
+.aside-container{
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.menu1{
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.menu2{
+    margin: 40px;
+    margin-top: 3px;
+    font-weight: bold;
+
+}
+
+.item{
+    padding: 12px;
+}
+
+.titre{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 70%;
+    color: rgba(180, 180, 169, 0.76);
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 21px 50px 0px rgb(120, 193, 241);
+    font-size: 200%;
+}
+
+.dot{
+    display: block;
+    /* position: absolute; */
+    font-size: xx-large;
+    cursor: pointer;
+    align-content: rigth;
+    margin-left: 275px;
+}
+
+.asd-contain{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: column-reverse;
+    background-color: #fff;
+    flex-basis: 20%;
+}
+
+.p_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 145px;
+    justify-content: center;
+}
+
+.toggle{
+        display: inline-block;
+        height: 18px;
+        position: relative;
+        overflow: visible;
+        padding: 0;
+        margin-left: 50px;
+        cursor: pointer;
+        width: 40px;
+        user-select: none;
+}
+
+.toggle2{
+    height: 15px;
+    width: 30px;
+    background: lightgray;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    border-radius: 12px;
+    padding: 2px;
+    align-self: end;
+    margin-right: 10px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.tog3{
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.icon{
+    margin-right: 15px;
+    font-weight: bolder;
+}
+.icon2{
+    margin-right: 15px;
+}
+
+
+
+
+
+/* span::before {
+    content: " \00a0 ";
+} */

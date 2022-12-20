@@ -1,0 +1,202 @@
+.dot{
+    display: block;
+    font-size: xx-large;
+    cursor: pointer;
+    align-content: rigth;
+    margin-left: 275px;
+    color: rgb(129, 118, 118);
+    justify-content: center;
+}
+
+.p_up{
+    display: flex;
+    align-self: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 75px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(180, 180, 169, 0.76);
+
+}
+
+.card_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+}
+
+.card{
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    height: 250px;
+    width: 425px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(179, 178, 172, 0.185);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+.card2{
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    height: 250px;
+    width: 425px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(188, 222, 245, 0.39);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(36, 142, 241);
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+.imgCard{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+.card3{
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    height: 250px;
+    width: 285px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(245, 197, 188, 0.39);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(245, 68, 32);
+}
+
+.h_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.t_card{
+    height: 30px;
+    margin-top: 2px;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.t_card2{
+    height: 30px;
+    margin-top: 2px;
+    position: relative;
+    color: rgb(36, 142, 241);
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.t_card3{
+    height: 30px;
+    margin-top: 2px;
+    position: relative;
+    color: rgb(241, 87, 36);
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.p_card{
+    margin-top: 0px;
+    padding: 2px;
+}
+
+.etat{
+    background-color: lightgray;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 12px;
+}
+.etat2{
+    background-color: rgb(36, 142, 241);
+    color: #fff;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 12px;
+}
+.etat3{
+    background-color: rgb(241, 80, 36);
+    color: #fff;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 12px;
+}
+
+.addTodos2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70vh;
+    overflow-y: scroll;
+}
+.addTodos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: #fff;
+    background: dodgerblue;
+
+}
+
+.paginationActive a {
+    color: #fff;
+    background: dodgerblue;
+}   
